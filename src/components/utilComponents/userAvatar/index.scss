@@ -1,0 +1,21 @@
+#userAvatar{
+    img{
+
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 10px;
+        .fullname{
+            font-size: 13px;
+            color: gray;
+        }
+
+        .phone{
+            font-size: 12px;
+            font-weight: bold;
+            color: grey;
+        }
+    }
+}

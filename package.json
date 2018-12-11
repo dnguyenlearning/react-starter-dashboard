@@ -1,0 +1,108 @@
+{
+  "name": "boilder-plate-react-webpack4",
+  "version": "1.0.0",
+  "description": "Boider Plate for react-redux-webpack",
+  "main": "index.js",
+  "scripts": {
+    "prod": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --hot --watch --open",
+    "test": "jest --watchAll --coverage",
+    "eslint": "eslint client --fix",
+    "sasslint": "sass-lint client",
+    "docs": "./node_modules/.bin/esdoc",
+    "build": "NODE_ENV=production npm run prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnguyenlearning/react-redux-boiler-place.git"
+  },
+  "keywords": [
+    "boider-plate",
+    "react",
+    "redux",
+    "sagas",
+    "selectors"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "^5.5.0",
+    "eslint-import-resolver-webpack": "^0.10.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.6.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-logger": "^3.0.6",
+    "sass-lint": "^1.12.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "transform-runtime": "0.0.0",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "@material-ui/core": "^3.6.1",
+    "@material-ui/icons": "^3.0.1",
+    "autosize": "^4.0.2",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "history": "^4.7.2",
+    "lodash": "^4.17.11",
+    "nprogress": "^0.2.0",
+    "parse5": "^5.1.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0-alpha.2",
+    "react-color": "^2.14.1",
+    "react-dom": "^16.5.0",
+    "react-google-maps": "^9.4.5",
+    "react-intl": "^2.7.2",
+    "react-modal": "^3.6.1",
+    "react-placeholder": "^3.0.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.4.0-beta.6",
+    "react-s3": "^1.3.1",
+    "react-spinners": "^0.4.7",
+    "react-table": "^6.8.6",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "reselect": "^4.0.0",
+    "styled-components": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "roots": [
+      "./test"
+    ],
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "author": "Duong Nguyen",
+  "license": "ISC"
+}

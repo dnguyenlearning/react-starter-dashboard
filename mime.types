@@ -1,0 +1,16 @@
+types {
+    # Audio
+    audio/mp4                             aac f4a f4b m4a;
+    audio/mpeg                            mp3;
+    audio/ogg                             oga ogg;
+
+    # Image
+    image/bmp                             bmp;
+    image/gif                             gif;
+    image/jpeg                            jpeg jpg;
+    image/png                             png;
+
+    # Other
+    text/html                             html htm shtml;
+    text/css                              css;
+}

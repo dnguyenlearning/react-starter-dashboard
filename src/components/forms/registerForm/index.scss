@@ -1,0 +1,59 @@
+#registerForm{
+    width: 350px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 10px;
+    padding: 80px 30px 30px;
+    text-align:center;
+    position: relative;
+    background: white;
+    .company-icon{
+        position: absolute;
+        top: -35px;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        .logo{
+            width: 75px;
+            height: 75px;
+            border-radius: 100%;
+            background: url("/src/assets/images/logo.png") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    }
+    h2{
+        font-weight: bolder;
+    }
+
+    button[disabled]{
+        background: #555 !important
+    }
+    
+    .spliter{
+        margin: 20px 0;
+    }
+
+    .social-login{
+        button{
+            margin: 10px 0;
+            background: white;
+            color: black;
+            border: 1px solid lightgrey;
+            border-radius: 5px;
+            &.google{
+                svg{
+                    color: red
+                }
+            }
+
+            &.saleforce{
+                svg{
+                    color: aqua
+                }
+            }
+        }
+    }
+}

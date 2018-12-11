@@ -1,0 +1,12 @@
+@import "variables";
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.app-container{
+  width: 100%;
+  min-height: 100vh;
+  background-color: $body_bg;
+}
